@@ -11,11 +11,12 @@ public class UIActionMenu : MonoBehaviour
 
     void Start()
     {
+        btnBattle.onClick.AddListener(OnClickBattle); // 전투 버튼을 누르면 배틀 씬으로 넘어간다.
         
     }
 
-    void Update()
+    void OnClickBattle()
     {
-        
+        ScenesManager.GetInstance().ChangeScene(Scene.Battle); // 배틀씬으로 넘어가게 한다.
     }
 }

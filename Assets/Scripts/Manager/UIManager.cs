@@ -62,6 +62,24 @@ public class UIManager : MonoBehaviour
         }
     }
 
+    public GameObject GetUI(string uiName)
+    {
+        if (uiList.ContainsKey(uiName))
+        {
+            return uiList[uiName];
+            // 잘못적어서 공격 받자마자 uiprofile이 비활성화되었다.흑흑 꼭 잘 적어 넣어주자!
+        }
+
+        return null; // 함수가 void상태 아니면 return이 꼭 필요하다. 그리고 안에 데이터르 아직 안넣어서 null
+        
+    }
+
+    public void ClearList() // 이것을 만든이유는
+    {
+        uiList.Clear(); // 안에 있는 내용을 다 삭제해 주는 것이다. 언제 호출할 것인가?
+
+    }
+
     #endregion
 
 

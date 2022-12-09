@@ -21,11 +21,28 @@ public class ObjectManager : MonoBehaviour
 
     #endregion
 
-    public GameObject CreatCharacter()
+    public GameObject CreatCharacter() // 캐릭터를 생성한다.
     {
-        Object characterObj = Resources.Load("Sprite/Character");
+        Object characterObj = Resources.Load("Sprite/character");
         GameObject character = (GameObject)Instantiate(characterObj);
 
         return character;
     }
+
+    public GameObject CreateMonster() // 몬스터를 생성한다.
+    {
+        Object monsterObj = Resources.Load("Sprite/monster");
+        GameObject monster = (GameObject)Instantiate(monsterObj);
+
+        return monster;
+    }
+
+    public ParticleSystem CreateHItEffect()
+    {
+        Object effectObj = Resources.Load("Effect/Destruction_air_purple");
+        GameObject effect = (GameObject)Instantiate(effectObj);
+
+        return effect.GetComponent<ParticleSystem>();
+    }
+
 }

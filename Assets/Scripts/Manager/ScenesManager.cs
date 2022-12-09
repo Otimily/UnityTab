@@ -33,6 +33,9 @@ public class ScenesManager : MonoBehaviour
 
     public void ChangeScene(Scene scene) 
     {
+        UIManager.GetInstance().ClearList();
+        //복잡하게 각 스크립트마다 씬을 바꿔주는것을 입력하지 않아도 씬매니저 안에서 체인지씬을 넣어서 해결한다.
+
         currentScene = scene;
         SceneManager.LoadScene(scene.ToString());
     }

@@ -212,7 +212,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 0}
   m_FillRect: {fileID: 222120038563980278}
   m_HandleRect: {fileID: 0}
@@ -638,7 +638,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 262.7, y: 50.5}
+  m_SizeDelta: {x: 444.45, y: 50.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1849313450887673243
 CanvasRenderer:
@@ -855,6 +855,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hpBar: {fileID: 8191875369558826895}
   imgFill: {fileID: 4818871990028373170}
+  txtHp: {fileID: 7665299730206774464}
   txtLevel: {fileID: 9218550433106654648}
   txtName: {fileID: 8197804467033538471}
   txtGold: {fileID: 8382961566680450496}
