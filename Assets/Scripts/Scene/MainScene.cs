@@ -28,8 +28,8 @@ public class MainScene : MonoBehaviour
     void PlayAnimation()
     {
 
-        characterAnimator.SetTrigger("Attack");
+        //characterAnimator.SetTrigger("Attack");
         characterAnimator.SetInteger("Move", 2);
-        characterAnimator.SetBool("Testbool",false);
+        //characterAnimator.SetBool("Testbool",false);
     }
 }
