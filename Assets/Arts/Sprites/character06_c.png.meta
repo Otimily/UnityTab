@@ -111,6 +111,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -201,6 +202,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -833,6 +846,36 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      dot_enemy_01_3_3: 21300006
+      dot_enemy_01_3_5: 21300010
+      dot_enemy_01_3_12: 21300024
+      dot_enemy_01_3_17: 21300034
+      dot_enemy_01_3_24: 21300048
+      dot_enemy_01_3_9: 21300018
+      dot_enemy_01_3_14: 21300028
+      dot_enemy_01_3_1: 21300002
+      dot_enemy_01_3_4: 21300008
+      dot_enemy_01_3_11: 21300022
+      dot_enemy_01_3_23: 21300046
+      dot_enemy_01_3_25: 21300050
+      dot_enemy_01_3_7: 21300014
+      dot_enemy_01_3_27: 21300054
+      dot_enemy_01_3_16: 21300032
+      dot_enemy_01_3_8: 21300016
+      dot_enemy_01_3_18: 21300036
+      dot_enemy_01_3_0: 21300000
+      dot_enemy_01_3_13: 21300026
+      dot_enemy_01_3_2: 21300004
+      dot_enemy_01_3_10: 21300020
+      dot_enemy_01_3_22: 21300044
+      dot_enemy_01_3_26: 21300052
+      dot_enemy_01_3_20: 21300040
+      dot_enemy_01_3_19: 21300038
+      dot_enemy_01_3_6: 21300012
+      dot_enemy_01_3_15: 21300030
+      dot_enemy_01_3_21: 21300042
+      dot_enemy_01_3_28: 21300056
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
